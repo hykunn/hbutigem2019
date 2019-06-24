@@ -1,0 +1,90 @@
+
+@media only screen and (max-width:992px ) {
+	.navbar-brand a img{
+		width: 89px;height: 29px;
+	}
+	#daohangtiao{display: none;}
+	.navbar-collapse.collapse {
+    	display: none !important;
+  	}
+  	html,body{height: 100%;
+		overflow-x: hidden;
+	}
+	
+}
+@media only screen and (min-width:993px ) {
+	.zd{display: none !important ;}
+	#daohangtiao{display: block !important;}
+	.navbar-collapse.collapse {
+    	display: block !important;
+  		height: auto !important;
+    	padding-bottom: 0;
+    	overflow: visible !important;
+  }
+  	.navbar-header {float: left !important;}
+  /*	.navbar {height: 70px;}*/
+	.daohang{width: 90%;margin: 0 auto;}
+	
+	.navbar-header img{
+		/* margin-top: 10px; */
+		width: 102px;height: 33px;
+	}
+	#box{right: -2880px!important;}
+	#main{left:0px !important;}
+}
+@media only screen and (min-width: 768px) and (max-width: 993px) {
+	.navbar-header {float:none !important;}
+}
+header{
+	position:fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */
+    top:0; /* 距离窗口顶部距离 */
+    left:0; /* 距离窗口左边的距离 */
+    width:100%; /* 宽度设置为100% */
+    height:40px; /* 高度 */
+    z-index:99; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+}
+.navbar-inverse{
+	background: rgba(48,38,38,0.7);
+	border:none;
+	border-radius: 0;
+}
+.navbar-nav {
+  margin: 4px 50px;
+}
+.navbar-brand{
+	width: 119px;
+}
+.navbar-brand img{
+	width: 100%;
+	height: auto;
+}
+.zd{	
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  width: 30px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+}
+.zd:focus {
+  outline: 0;
+}
+#daohangtiao ul>li a{
+	color: #ededed;
+	font-size: 15px;
+	line-height: 32px;
+}
+#daohangtiao ul>li a:hover{
+	color: #FFFFFF;	
+}
+.dpcolor{
+	background:rgba(48,38,38,0.7);
+}
+
+
